@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(78, 78, 87);
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(32, 32, 36);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#countdown{
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+#countdown div{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 4rem;
+}
+#countdown div span{
+   font-size: xx-large;
+}
+
+.progress-container{
+    width: 100%;
+    background-color: rgb(78, 78, 87);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    height: 1.25rem;
+    margin: 1rem;
+}
+
+#progress-bar{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(142, 142, 184);
+    border-radius: 0.75rem;
+    transition: width 1s ease-in-out; 
+}
